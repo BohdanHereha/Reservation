@@ -6,7 +6,7 @@
             <nav class="three">
                 <br>
                 <ul>
-                  <li><a href="http://localhost:8080/"><i class="fa fa-home fa-fw"></i>Home</a></li>
+                  <li><a href="http://localhost:8080/">Home</a></li>
                   <li><a href="http://localhost:8080/about">About us</a></li>
                   <li><a href="http://localhost:8080/rooms">Rooms</a></li>
                   <li><a href="http://localhost:8080/contact">Contact</a></li>
