@@ -6,10 +6,10 @@
             <nav class="three">
                 <br>
                 <ul>
-                  <li><a href="http://localhost:8080/">Home</a></li>
-                  <li><a href="http://localhost:8080/about">About us</a></li>
-                  <li><a href="http://localhost:8080/rooms">Rooms</a></li>
-                  <li><a href="http://localhost:8080/contact">Contact</a></li>
+                  <li><a href="https://ancient-sands-23695.herokuapp.com//">Home</a></li>
+                  <li><a href="https://ancient-sands-23695.herokuapp.com//about">About us</a></li>
+                  <li><a href="https://ancient-sands-23695.herokuapp.com//rooms">Rooms</a></li>
+                  <li><a href="https://ancient-sands-23695.herokuapp.com//contact">Contact</a></li>
                 </ul>
             </nav>
             <router-view></router-view>
