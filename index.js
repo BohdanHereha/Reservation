@@ -7,6 +7,8 @@ const messages = require('./db/messages');
 
 const app = express();
 
+app.use(express.static(__dirname + '/public/'));
+app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
 app.use(morgan('tiny'));
 app.use(cors());
 app.use(bodyParser.json());
@@ -32,11 +34,6 @@ app.post('/messages', (req, res) => {
         res.json(error);
     });
 });
-
-if (process.env.NODE_ENV === 'production') {
-	app.use(express.static(__dirname + '/public/'));
-	app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html'));
-}
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
