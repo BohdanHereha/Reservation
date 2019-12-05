@@ -3,8 +3,8 @@ node_modules
 
 
 # local env files
-.env.ancient-sands-23695.herokuapp.com
-.env.*.ancient-sands-23695.herokuapp.com
+.env.local
+.env.*.local
 
 # Log files
 npm-debug.log*

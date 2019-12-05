@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  publicPath: "https://ancient-sands-23695.herokuapp.com/",
   transpileDependencies: [
     'vuetify',
   ],
