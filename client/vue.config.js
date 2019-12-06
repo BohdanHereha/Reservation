@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'ancient-sands-23695.herokuapp.com/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/ancient-sands-23695/' : '/',
   transpileDependencies: [
     'vuetify',
   ],
